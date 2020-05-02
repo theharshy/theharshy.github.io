@@ -19,11 +19,16 @@
         <i class="fa fa-bars" aria-hidden="true"></i>
     </div>
     <!-- End #mobile-menu-toggle -->
-    <header>
+    <header class="sticky">
         <div id="mobile-menu-close">
             <span>Close</span> <i class="fa fa-times" aria-hidden="true"></i>
         </div>
         <ul id="menu" class="shadow">
+            <div style="margin-right: 20px;font-family: Times;">
+            <li>
+                    <a href="#lead"><strong>Harsh Yadav</strong></a>
+            </li>
+            </div>
             <li>
                 <a href="#about">About</a>
             </li>
@@ -50,7 +55,7 @@
         <div id="lead-content">
             <h1>Harsh Yadav</h1>
             <h2>Machine Learning Engineer</h2>
-            <a href="files/resume.pdf" download="resume.pdf" class="btn-rounded-white">Download Resume</a>
+            <a href="files/resume.pdf" download="resume.pdf" target="_blank" class="btn-rounded-white">Download Resume</a>
             <div class="container">
             <div class="row">
             <div class="social">
@@ -326,14 +331,23 @@
 
     <div id="contact">
         <h2>Get in Touch</h2>
-        <div id="contact-form">
+        <div class="container">
+            <div style="color:#fff">
+                <p>
+                    My inbox is open for new and exciting opportunities in the field of Machine Learning and Software Engineering. Feel free to reach out to me at <u><b>harshest01@gmail.com</b></u>, or use the button below to connect with me.  
+                </p>
+            <a href="mailto:harshest01@gmail.com" class="btn-rounded-white">
+            Say Hello</a>
+            </div>
+        </div>
+        <!-- <div id="contact-form">
             <form method="POST" action="https://formspree.io/email@email.com">
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 <input type="email" name="_replyto" placeholder="Your email" required>
                 <textarea name="message" placeholder="Your message" required></textarea>
                 <button type="submit">Send</button>
             </form>
-        </div>
+        </div> -->
         <!-- End #contact-form -->
     </div>
     <!-- End #contact -->
